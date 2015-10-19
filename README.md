@@ -1,9 +1,10 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+_by Melvin Santiago_
 
 ---
-## Git vs. GitHub
+## Git vs. GitHub  
+Git is like version control which keeps snapshots of your code. Github 
 
 
 
