@@ -57,9 +57,14 @@ _We would want to save this readme but theres nothing to send the code to. So we
 
 **Go on [Github](github.com) and on the top right there is a plus. Click it and press new repository.You MUST name it the same name as cloud 9. Than create the repository** (_you might be asked to vertify your email. Do it_).  
 ###_Final Step_  
-To save your readme type git add README.md. Than press git commit -m "whatever message you want". This makes what you changed permanent. Than press git push, which sends the code to the new remote repo you just created.
+To save your readme type git add README.md. Than press git commit -m "whatever message you want".  Than press git push. And just like that your repo is created
 
 
 
 ---
 ## Workflow & Commands
+There are some things you should know to get your code working.  
+**Git status**- is used to check up on how your codeis doing.  
+**Git add**- adds the contents to your index  
+**Git commit**- makes your changes permanent. Typed in is git commit -m "message"  
+**Git push**- sends code to remote repo in github  
