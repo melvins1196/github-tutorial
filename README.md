@@ -42,7 +42,13 @@ Git is like version control which keeps snapshots of your code. Github is a stor
 
 ---
 ## Repository Setup
-
+There are a few steps to make your first repo. But once you got them down it'll be well worth it.  
+###_Step 1_  
+In the upper right corner of github there is a plus mark. Click it and press new repository. Make a short name for it and a little description about your repository.  
+**Note there will be a choice between public and private. Public can really benefit you because other people's ideas can sometimes really help you make your code better. While private requires more setup.**  
+_So my input on it, you should press public_  
+###_Step 2_  
+Then press Initialize this repository with a README
 
 
 ---
