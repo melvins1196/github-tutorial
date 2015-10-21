@@ -44,11 +44,21 @@ Git is like version control which keeps snapshots of your code. Github is a stor
 ## Repository Setup
 There are a few steps to make your first repo. But once you got them down it'll be well worth it.  
 ###_Step 1_  
-In the upper right corner of github there is a plus mark. Click it and press new repository. Make a short name for it and a little description about your repository.  
-**Note there will be a choice between public and private. Public can really benefit you because other people's ideas can sometimes really help you make your code better. While private requires more setup.**  
-_So my input on it, you should press public_  
+mkdir whatever you want to call your first repo.(**mkdir makes your repo**)  
 ###_Step 2_  
-Then press Initialize this repository with a README
+cd reponame (**goes into your repo**). Type in pwd just to make sure you are in your correct repository.  
+###_Step 3_  
+Type in git init which intializes your repo. Than type git config exactly how explained earlier in step 4 of initial setup.  
+**We are not done yet**  
+###_Step 4_  
+We now want to make a readme file. Type in touch README.md(**in all caps**) to create the readme.  
+
+_We would want to save this readme but theres nothing to send the code to. So we have to create a remote repo. And its really simple to create_
+
+**Go on [Github](github.com) and on the top right there is a plus. Click it and press new repository.You MUST name it the same name as cloud 9. Than create the repository** (_you might be asked to vertify your email. Do it_).  
+###_Final Step_  
+To save your readme type git add README.md. Than press git commit -m "whatever message you want". This makes what you changed permanent. Than press git push, which sends the code to the new remote repo you just created.
+
 
 
 ---
