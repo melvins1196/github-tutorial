@@ -25,7 +25,18 @@ Git is like version control which keeps snapshots of your code. Github is a stor
 
 ---
 ## Initial Setup  
- Here are the steps to making your account
+ Here are the steps to making your account.  
+ ### _Step 1_  
+ One time setup to create your github account. You can sign up [here](github.com) to create your github account. You will need your own email and think of a password that you can remember. Then sign up for free.  
+ ### _Step 2_  
+ Than you make an account at cloud nine to actually code. [Click Here](c9.io)  
+ ### _Step 3_  
+ **SSH**(secure shell) can be found in both github and cloud 9. This is like a security system similarly to HTTPS but it's more efficient since it doesn't require you to log in every time. Your SSH can be found by going to github and going to the top right profile icon and press settings. Then go to the left sidebar and you should see it. So make sure you have SSH selected and not HTTPS.  
+ ###_Step 4_  
+ Git config is used to make you user name and email that everybody will reconize you as. You would do this by:  
+ 1. _git config --global user.name "Name you want"_  
+ 2. _git config --global user.email your emai_
+
 
 
 
