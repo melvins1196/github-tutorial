@@ -64,7 +64,15 @@ To save your readme type git add README.md. Than press git commit -m "whatever m
 ---
 ## Workflow & Commands
 There are some things you should know to get your code working.  
+**Git init**- initializes git  
 **Git status**- is used to check up on how your codeis doing.  
 **Git add**- adds the contents to your index  
 **Git commit**- makes your changes permanent. Typed in is git commit -m "message"  
 **Git push**- sends code to remote repo in github  
+_Some other useful tips_  
+If you init in the wrong directory don't panic. Just type in rm -rf .git and that should do the trick. This completely removes git from the project  
+
+
+
+
+
