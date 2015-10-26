@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>GitHub-tutorial by melvins1196</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">GitHub-tutorial</h1>
+      <h2 class="project-tagline">Getting started with GitHub</h2>
+      <a href="https://github.com/melvins1196/github-tutorial" class="btn">View on GitHub</a>
+      <a href="https://github.com/melvins1196/github-tutorial/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/melvins1196/github-tutorial/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Melvin Santiago</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>Git is like version control which keeps snapshots of your code. Github is a storage center for all the work you do in git.  </p>
+
+<h3>
+<a id="git" class="anchor" href="#git" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Git</strong>
+</h3>
+
+<ul>
+<li>Runs in the command line<br>
+</li>
+<li>There is a directory which is like a folder of files<br>
+
+<ul>
+<li>once you initialize git, it becomes a repository</li>
+<li>This can let you edit files</li>
+<li>You than must add and commit them to make sure your files stay permanent<br>
+</li>
+</ul>
+</li>
+<li>Local machine</li>
+<li>
+<strong>Does not require Github</strong><br>
+</li>
+</ul>
+
+<h3>
+<a id="github" class="anchor" href="#github" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Github</strong>
+</h3>
+
+<ul>
+<li>A cloud where ypu can store your code</li>
+<li>Interacts with repository's and lets you be able to see the changes made between commits</li>
+<li>You can start from scratch or clone someone else's project and start from there</li>
+<li><strong>Does require Git</strong></li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>Here are the steps to making your account.<br>
+ ### <em>Step 1</em><br>
+ One time setup to create your github account. You can sign up <a href="github.com">here</a> to create your github account. You will need your own email and think of a password that you can remember. Then sign up for free.<br>
+ ### <em>Step 2</em><br>
+ Than you make an account at cloud nine to actually code. <a href="c9.io">Click Here</a><br>
+ ### <em>Step 3</em><br>
+ <strong>SSH</strong>(secure shell) can be found in both github and cloud 9. This is like a security system similarly to HTTPS but it's more efficient since it doesn't require you to log in every time. Your SSH can be found by going to github and going to the top right profile icon and press settings. Then go to the left sidebar and you should see it. So make sure you have SSH selected and not HTTPS.<br>
+ ###<em>Step 4</em><br>
+ Git config is used to make you user name and email that everybody will reconize you as. You would do this by:  </p>
+
+<ol>
+<li>
+<em>git config --global user.name "Name you want"</em><br>
+</li>
+<li><em>git config --global user.email your emai</em></li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>There are a few steps to make your first repo. But once you got them down it'll be well worth it.  </p>
+
+<h3>
+<a id="step-1" class="anchor" href="#step-1" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Step 1</em>
+</h3>
+
+<p>mkdir whatever you want to call your first repo.(<strong>mkdir makes your repo</strong>)  </p>
+
+<h3>
+<a id="step-2" class="anchor" href="#step-2" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Step 2</em>
+</h3>
+
+<p>cd reponame (<strong>goes into your repo</strong>). Type in pwd just to make sure you are in your correct repository.  </p>
+
+<h3>
+<a id="step-3" class="anchor" href="#step-3" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Step 3</em>
+</h3>
+
+<p>Type in git init which intializes your repo. Than type git config exactly how explained earlier in step 4 of initial setup.<br>
+<strong>We are not done yet</strong>  </p>
+
+<h3>
+<a id="step-4" class="anchor" href="#step-4" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Step 4</em>
+</h3>
+
+<p>We now want to make a readme file. Type in touch README.md(<strong>in all caps</strong>) to create the readme.  </p>
+
+<p><em>We would want to save this readme but theres nothing to send the code to. So we have to create a remote repo. And its really simple to create</em></p>
+
+<p><strong>Go on <a href="github.com">Github</a> and on the top right there is a plus. Click it and press new repository.You MUST name it the same name as cloud 9. Than create the repository</strong> (<em>you might be asked to vertify your email. Do it</em>).  </p>
+
+<h3>
+<a id="final-step" class="anchor" href="#final-step" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Final Step</em>
+</h3>
+
+<p>To save your readme type git add README.md. Than press git commit -m "whatever message you want".  Than press git push. And just like that your repo is created</p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>There are some things you should know to get your code working.<br>
+<strong>Git init</strong>- initializes git<br>
+<strong>Git status</strong>- is used to check up on how your codeis doing.<br>
+<strong>Git add</strong>- adds the contents to your index<br>
+<strong>Git commit</strong>- makes your changes permanent. Typed in is git commit -m "message"<br>
+<strong>Git push</strong>- sends code to remote repo in github<br>
+<em>Some other useful tips</em><br>
+If you init in the wrong directory don't panic. Just type in rm -rf .git and that should do the trick. This completely removes git from the project  </p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/melvins1196/github-tutorial">GitHub-tutorial</a> is maintained by <a href="https://github.com/melvins1196">melvins1196</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
